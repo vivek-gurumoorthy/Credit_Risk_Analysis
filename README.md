@@ -1,10 +1,10 @@
 # Credit_Risk_Analysis
 
-Overview of the analysis: 
+## Overview of the analysis: 
 
 This analysis attempts to predict the status of a loan based on a number of other factors. The analysis was performed by training several different supervised machine learning models and allowing these models to make predictions about loan status according to training experience. 
 
-Results: 
+## Results: 
 
 **Naive Random Oversampling**
 
@@ -40,6 +40,6 @@ Evidently, all models that were created had very high precision when it came to 
 
 As the different models were being created, however, additional accuracy was gained. All oversampling, undersampling, and combined sampling models posted low accuracy scores ranging from 0.59 - 0.65. This suggested that these models were all relatively weak learners. Compared to these four models, the two ensemble classifiers, the random forest (0.79) and easy ensemble classifier (0.93), were much more accurate. Additionally, the recall for predicting high-risk loan status was much higher for the ensemble learners, with the easy ensemble classifier even having a 0.91 recall for high-risk loans and a 0.94 for low-risk loans. Clearly, the ensemble learners were far superior in their prediction.
 
-Summary: 
+## Summary: 
 
 Overall, this analysis demonstrated how important it can sometimes be to combine many weak learners in order to create a stronger and more comprehensive predictive model. By far and away, the easy ensemble classifier was the most accurate supervised machine learning model that was created, and it predicted the status of loans in the dataset with considerable accuracy. 
