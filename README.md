@@ -35,5 +35,6 @@ Results:
 
 ![Screen Shot 2022-11-16 at 7 24 03 PM](https://user-images.githubusercontent.com/108832056/202323835-8e270ae9-2fc7-491a-a8eb-998f160b1dc9.png)
 
+Evidently, all models that were created had very high precision when it came to predicting low-risk loan status and low precision when it came to predicting high-risk loan status. Also, all models generally had much superior recall in predicting low-risk loan status compared to predicting high-risk loan status. Both of these make some sense because there was an extreme imbalance in the number of low-risk and high-risk loans in the data that was used. Despite attempts to curb this imbalance, such as over, under, or combined sampling, this imbalance can still sometimes come through. 
 
 Summary: 
